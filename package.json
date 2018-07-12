@@ -1,0 +1,28 @@
+{
+  "name": "poc_rasp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015"
+  },
+  "keywords": [
+    "IOT",
+    "BLOCKCHAIN",
+    "GPIO"
+  ],
+  "author": "chamara_w",
+  "license": "ISC",
+  "dependencies": {
+    "epoll": "2.0.1",
+    "express": "^4.16.3",
+    "lerna": "^2.11.0",
+    "nodemon": "^1.17.5",
+    "onoff": "3.1.0",
+    "web3": "0.18.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
