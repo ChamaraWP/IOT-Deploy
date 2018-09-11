@@ -3,7 +3,7 @@ import blinkSet from './blinkRecv';
 
 
 
-const PORT = 3040;
+const PORT = 3042;
 let app = new express();
 app.set('port',PORT);
 
